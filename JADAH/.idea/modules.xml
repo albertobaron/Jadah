@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JADAH.iml" filepath="$PROJECT_DIR$/JADAH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JADAH-grailsPlugins.iml" filepath="$PROJECT_DIR$/JADAH-grailsPlugins.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="JADEH" uuid="2393b894-3b52-4e77-ae0e-10bbaa12371e">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>limpiezajesus.*</schema-pattern>
+      <default-schemas>limpiezajesus.*</default-schemas>
+    </data-source>
+  </component>
+</project>
