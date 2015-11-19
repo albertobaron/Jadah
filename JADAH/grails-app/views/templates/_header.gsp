@@ -20,7 +20,7 @@
 
                         <ul class="nav nav-pills nav-justified" id="nav-pills-tabs">
                             <li role="presentation" class="active" ><a href="#home" id="home"> Home </a></li>
-                            <li role="presentation"><a href="#products" id="products"> Productos </a></li>
+                            <li role="presentation"><g:link controller="product" action="showProducts" id="products"> Productos </g:link></li>
                             <li role="presentation"><a href="#contact" id="contact" > Contacto </a></li>
                         </ul>
                     </div><!-- /.container-fluid -->

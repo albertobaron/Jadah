@@ -30,4 +30,12 @@ class ProductController {
         sendMailService.sendMail(params.email, 'contactEmail', "Un usuario está ínteresado en un producto", [name: params.name, phone: params.phone, message: params.message])
         redirect(action: 'mostSoldProducts')
     }
+
+    /**
+     * Search all products
+     */
+    def showProducts(){
+        render (view: 'index' , model: [products: Product.list()])
+    }
+
 }

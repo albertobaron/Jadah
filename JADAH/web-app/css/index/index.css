@@ -1,0 +1,62 @@
+
+.resultado:hover {
+    color: #ffffff;
+    background: #0073ea;
+}
+
+.resultado {
+    float: left;
+    width: 18em;
+    /*height: 13.5em;*/
+    background: #ffffff;
+    margin: 0.75em;
+    padding: 0.3125em;
+    border: 1px solid #cccccc;
+    border-radius: 0.3125em;
+}
+
+.resultado img {
+    width: 100%;
+}
+
+.resultado p {
+    margin: 0.3125em;
+}
+
+#contenido {
+    text-align: center;
+    padding-left: 152px;
+}
+
+#contenido label {
+    float: left;
+    width: 6em;
+}
+
+#contenido input {
+    background: #ffffff;
+}
+
+#subcategory{
+    height: 15px;
+}
+
+.price{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+    display:block;
+    color: #8b0000;
+    line-height:23px;
+}
+
+.title{
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+
+
+

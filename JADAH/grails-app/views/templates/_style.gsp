@@ -9,6 +9,7 @@
 <script src="js/css3-mediaqueries.js" type="text/javascript"></script>
 <script src="js/fwslider.js" type="text/javascript"></script>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="${resource(dir: 'css/index', file: 'index.css')}" />
 <link rel="stylesheet" type="text/css" href="${resource(dir: 'css', file: 'bootstrap.css')}" />
 <link rel="stylesheet" type="text/css" href="${resource(dir: 'css', file: 'theme.css')}" />
 <link rel="stylesheet" type="text/css" href="${resource(dir: 'css', file: 'fwslider.css')}" />
