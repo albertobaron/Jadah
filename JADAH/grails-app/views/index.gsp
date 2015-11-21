@@ -3,6 +3,12 @@
 <head>
     <title>The Yolk Website Template :: w3layouts</title>
     <meta name="layout" content="main" />
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('html, body').animate({ scrollTop: 0 }, 'slow');
+            $( "li[id='home']" ).attr('class', 'active');
+        });
+    </script>
 </head>
 <body>
 <div class="container-fluid">

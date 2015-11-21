@@ -35,7 +35,7 @@ class ProductController {
      * Search all products
      */
     def showProducts(){
-        render (view: 'index' , model: [products: Product.list()])
+        render (view: 'products' , model: [products: Product.list()])
     }
 
 }

@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <div class="logo"><a href="index.html"> <g:img dir="/images/logo.png" alt="Grails"/></a></div>
+                <div class="logo"><g:link controller="product" action="mostSoldProducts"> <g:img dir="/images/logo.png" alt="Grails"/></g:link></div>
             </div>
             <div class="col-md-8">
                 <nav class="navbar navbar-default" role="navigation">
@@ -19,9 +19,9 @@
                         </div>
 
                         <ul class="nav nav-pills nav-justified" id="nav-pills-tabs">
-                            <li role="presentation" class="active" ><a href="#home" id="home"> Home </a></li>
-                            <li role="presentation"><g:link controller="product" action="showProducts" id="products"> Productos </g:link></li>
-                            <li role="presentation"><a href="#contact" id="contact" > Contacto </a></li>
+                            <li id="home"><g:link controller="product" action="mostSoldProducts"> Home </g:link></li>
+                            <li id="products"><g:link controller="product" action="showProducts"> Productos </g:link></li>
+                            <li id="contact"><g:link controller="product" action="contact"> Contacto </g:link></li>
                         </ul>
                     </div><!-- /.container-fluid -->
                 </nav>
