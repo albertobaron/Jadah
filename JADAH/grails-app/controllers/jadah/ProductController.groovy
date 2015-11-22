@@ -14,19 +14,19 @@ class ProductController {
         params.max = 5
         params.sort = 'numberSold'
         params.order = 'desc'
-        List <Product>  products = productService.findProductsMostSold(params)
-        render view:'/index', model:[products:products]
+        List<Product> products = productService.findProductsMostSold(params)
+        render view: '/index', model: [products: products]
     }
 
-    def contact(){
-        render view:'/contact'
+    def contact() {
+        render view: '/contact'
     }
 
     /**
      * Send an email when a user goes to the contact view
      * @return redirect to the mostSoldProducts action
      */
-    def sendMailContact(){
+    def sendMailContact() {
         sendMailService.sendMail(params.email, 'contactEmail', "Un usuario está ínteresado en un producto", [name: params.name, phone: params.phone, message: params.message])
         redirect(action: 'mostSoldProducts')
     }
@@ -34,8 +34,15 @@ class ProductController {
     /**
      * Search all products
      */
-    def showProducts(){
-        render (view: 'products' , model: [products: Product.list()])
+    def list() {
+        params.max = params.max ?: 12
+        List<Product> products = Product.list(params)
+        render(view: 'index', model: [products: products, productsTotal: products.totalCount])
     }
 
+    def filter() {
+        params.max = params.max ?: 12
+        List<Product> products = Product.list(params)
+        render(template: "listProducts", model: [products: products, productsTotal: products.totalCount])
+    }
 }
