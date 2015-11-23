@@ -6,9 +6,13 @@
 <g:javascript src="jquery-ui.min.js" />
 <g:javascript src="css3-mediaqueries.js" />
 <g:javascript src="fwslider.js" />
+<g:javascript src="index.js" />
+<g:javascript src="chosen/chosen.jquery.js" />
+
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="${resource(dir: 'css/index', file: 'index.css')}" />
 <link rel="stylesheet" type="text/css" href="${resource(dir: 'css', file: 'bootstrap.css')}" />
 <link rel="stylesheet" type="text/css" href="${resource(dir: 'css', file: 'theme.css')}" />
 <link rel="stylesheet" type="text/css" href="${resource(dir: 'css', file: 'fwslider.css')}" />
 <link rel="stylesheet" type="text/css" href="${resource(dir: 'css', file: 'jquery-ui.css')}" />
+<link rel="stylesheet" type="text/css" href="${resource(dir: 'css/chosen', file: 'chosen.css')}" />

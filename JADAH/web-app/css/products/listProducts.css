@@ -33,10 +33,11 @@
 
 #filterDiv{
     background: #ffffff none repeat scroll 0 0;
-    border: 1px solid #cccccc;
+    border: 3px solid #428bca;
     height: 200px;
     width: 89.5%;
     clear: both;
     margin-left: 11px;
     border-radius: 0.3125em;
+    padding: 15px;
 }

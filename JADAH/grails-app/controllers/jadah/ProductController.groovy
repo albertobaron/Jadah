@@ -1,6 +1,6 @@
 package jadah
 
-import JADAH.Product
+import JADAH.*
 
 class ProductController {
     ProductService productService
@@ -37,12 +37,12 @@ class ProductController {
     def list() {
         params.max = params.max ?: 12
         List<Product> products = Product.list(params)
-        render(view: 'index', model: [products: products, productsTotal: products.totalCount])
+        render(view: 'index', model: [products: products, productsTotal: products.totalCount, categories: Category.list(), subcategories: Subcategory.list()])
     }
 
     def filter() {
         params.max = params.max ?: 12
         List<Product> products = Product.list(params)
-        render(template: "listProducts", model: [products: products, productsTotal: products.totalCount])
+        render(template: "listProducts", model: [products: products, productsTotal: products.totalCount, categories: Category.list(), subcategories: Subcategory.list()])
     }
 }

@@ -15,7 +15,7 @@
 <body>
     <div id="contenido">
         <div id="filterDiv">
-
+            <g:render template="search" />
         </div>
 
         <g:render template="listProducts" />
