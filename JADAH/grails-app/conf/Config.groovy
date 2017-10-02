@@ -91,11 +91,11 @@ environments {
         grails.serverURL = "http://localhost:8080/${appName}"
         grails {
             mail {
-                overrideAddress = "alberto.baron@salenda.es"
+                overrideAddress = "OVERRIDE PASS"
                 host = "smtp.gmail.com"
                 port = 465
-                username = "alberto.baron@salenda.es"
-                password = "pin_3363"
+                username = "USERNAME"
+                password = "PASSWORD_GMAIL"
                 props = ["mail.smtp.auth"                  : "true",
                          "mail.smtp.socketFactory.port"    : "465",
                          "mail.smtp.socketFactory.class"   : "javax.net.ssl.SSLSocketFactory",
